@@ -105,7 +105,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     className="border-2 rounded-xl p-3 border-gray-300"
-                    rows="10"
+                    rows={10}
                   ></textarea>
                 </div>
                 <button className="w-full text-gray-100 p-4 mt-4">
