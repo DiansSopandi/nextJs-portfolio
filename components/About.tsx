@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex items-center w-full md:h-screen tracking-widest p-2 py-16"
+      className="flex items-center w-full md:h-screen tracking-widest p-4 py-16"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <p className="text-base tracking-widest uppercase text-[#5651e5]">
@@ -30,7 +30,7 @@ const About = () => {
             itaque tempore cum.
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300 hidden">
           <Image
             // src="https://source.unsplash.com/600X400"
             // alt="Image Caption"
