@@ -11,7 +11,7 @@ const property = () => {
           <Image
             className="absolute z-1"
             layout="fill"
-            // objectFit="cover"
+            objectFit="cover"
             src="/assets/projects/weather.png"
             alt="/"
             // width="200"
