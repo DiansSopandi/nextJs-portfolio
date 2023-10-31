@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const property = ({ title, backgroundImg, propertyImg }) => {
+const property = () => {
   return (
     <div className="pt-8">
       <div className=" w-full h-[30vh] lg:h-[30vh] lg:hidden md:block sm:block relative px-8 mt-16">
