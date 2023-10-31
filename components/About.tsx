@@ -31,10 +31,17 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
-          <img
-            src="https://source.unsplash.com/600X400"
-            alt="Image Caption"
-            className="rounded-xl"
+          <Image
+            // src="https://source.unsplash.com/600X400"
+            // alt="Image Caption"
+            // className="rounded-xl"
+            width="300"
+            height="100"
+            className="absolute z-1 rounded-xl"
+            // layout="fill"
+            // objectFit="cover"
+            src="/assets/contact.jpg"
+            alt="/"
           />
         </div>
       </div>

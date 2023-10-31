@@ -9,7 +9,7 @@ const Projects = () => {
         <p className="text-base tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className="text-sm py-4">What I've Built</h2>
+        <h2 className="text-sm py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-col-2 gap-8">
           <div className="flex items-center justify-center relative h-auto max-w-xl shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
             <Image
