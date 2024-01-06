@@ -46,18 +46,11 @@ const property = () => {
             <p className="text-base font-bold">Project</p>
             <h3>Overview</h3>
             <p className="p-2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a
-              quae ad dignissimos dolor distinctio. Reprehenderit nemo pariatur
-              ratione, eum sunt dolorum facilis eveniet quod quas illum
-              architecto ducimus sint, nihil nesciunt quaerat porro. Quia quam
-              deserunt nam blanditiis illum veniam laudantium. Nulla reiciendis
-              esse voluptates, tempora error ea aut, officia quisquam tenetur
-              totam corporis vel eius expedita adipisci quos? Nostrum dolorum
-              veniam libero nulla accusantium ex eum impedit numquam ab
-              recusandae maxime ipsam dolorem, ducimus sunt, nam cupiditate fuga
-              officiis labore esse quia. Itaque placeat aspernatur eius
-              nesciunt, autem in sint recusandae hic sit ad ipsum ut?
-              Asperiores, quisquam?
+              This application is based on JavaScript technologies which uses
+              the React framework and some JavaScript libraries, fetch data from
+              weather OpenAPI, use simple CSS stylesheet and HTML. The way this
+              application works is simple, just enter a certain city or place
+              where the weather forecast will be known.
             </p>
             <button className="px-8 py-2 mt-4 mr-8">
               <Link href="https://weather-progressif-web-app.netlify.app/">
@@ -70,7 +63,7 @@ const property = () => {
               </Link>
             </button>
           </div>
-          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="w-full col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1 text-base font-bold">
