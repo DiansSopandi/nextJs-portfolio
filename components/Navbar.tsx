@@ -34,6 +34,7 @@ const Navbar = () => {
     };
     window.addEventListener("scroll", handleShadow);
   }, []);
+
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}

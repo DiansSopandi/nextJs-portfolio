@@ -4,7 +4,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full lg:h-screen">
+    <div id="projects" className="w-full lg:h-screen font-mono font-black">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-base tracking-widest uppercase text-[#5651e5]">
           Projects
