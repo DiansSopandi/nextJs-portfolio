@@ -5,8 +5,8 @@ import { RiRadioButtonFill } from "react-icons/ri";
 
 const property = () => {
   return (
-    <div className="pt-8 font-mono font-black">
-      <div className=" w-full h-[30vh] lg:h-[30vh] lg:hidden md:block sm:block relative px-8 mt-16">
+    <div className="pt-8 overflow-hidden font-mono font-bold">
+      <div className=" w-full h-[30vh] lg:h-[30vh] lg:hidden md:block sm:block relative  mt-16">
         <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[30vh] bg-black/80 z-10">
           <Image
             className="absolute z-1"
@@ -66,7 +66,7 @@ const property = () => {
           <div className="w-full col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-3 md:grid-cols-1 text-base font-bold">
+              <div className="grid grid-cols-2 md:grid-cols-1 text-base">
                 <p className="flex py-2 text-gray-600 items-center ">
                   <RiRadioButtonFill className="pr-1" /> ReactJs
                 </p>

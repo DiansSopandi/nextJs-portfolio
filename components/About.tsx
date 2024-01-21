@@ -8,7 +8,7 @@ const About = () => {
       className="flex items-center w-full md:h-screen tracking-widest p-4 py-16 font-mono font-black"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <p className="text-base tracking-widest uppercase text-[#5651e5] ">
+        <p className="text-base tracking-widest uppercase text-[#5651e5]">
           About
         </p>
         <div className="text-gray-600 col-span-2 text-justify">
