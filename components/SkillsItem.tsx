@@ -12,8 +12,8 @@ const SkillsItem = () => {
     { image: "nextjs.png", text: "NextJs" },
     { image: "node.png", text: "NodeJs" },
     { image: "nestjs.svg", text: "NestJs" },
-    { image: "mysql.png", text: "mySQL" },
-    { image: "mongo.png", text: "mongodb" },
+    { image: "mysql.png", text: "MySQL" },
+    { image: "mongo.png", text: "Mongodb" },
     { image: "docker.png", text: "Docker" },
   ];
   return (
