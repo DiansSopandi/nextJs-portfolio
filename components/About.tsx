@@ -11,16 +11,17 @@ const About = () => {
         <p className="text-base tracking-widest uppercase text-[#5651e5] ">
           About
         </p>
-        <div className="text-gray-600 col-span-2 ">
+        <div className="text-gray-600 col-span-2 text-justify">
           <p>
             Todays i&apos;m spending a lot of times and focusing on web
             development with using Javascript technologies both for website or
-            mobile applications. I have got already experiences with several
-            technologies later for desktop or web development, such as delphi or
-            php for several years. also i have got already experiences with
-            several databases relational database management system such as
-            mysql and non relational database also well known as noSQL such as
-            mongodb
+            mobile applications. <br></br>
+            <br></br>I have got already experiences with several technologies
+            later for desktop or web development, such as delphi or php for
+            several years. <br></br>
+            <br></br>Also, i have got already experiences with several databases
+            relational database management system such as mysql and non
+            relational database also well known as noSQL such as mongodb
           </p>
         </div>
         <div className="text-gray-600 col-span-1">
