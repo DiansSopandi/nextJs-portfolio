@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 
 const property = () => {
   return (
-    <div className="pt-8">
+    <div className="pt-8 font-mono font-black">
       <div className=" w-full h-[30vh] lg:h-[30vh] lg:hidden md:block sm:block relative px-8 mt-16">
         <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[30vh] bg-black/80 z-10">
           <Image
@@ -48,9 +48,9 @@ const property = () => {
             <p className="p-2">
               This application is based on JavaScript technologies which uses
               the React framework and some JavaScript libraries, fetch data from
-              weather OpenAPI, use simple CSS stylesheet and HTML. The way this
-              application works is simple, just enter a certain city or place
-              where the weather forecast will be known.
+              weather openAPI, use simple CSS stylesheet and HTML.<br></br> The
+              way this application works is simple, just enter a certain city or
+              place where the weather forecast will be known.
             </p>
             <button className="px-8 py-2 mt-4 mr-8">
               <Link href="https://weather-progressif-web-app.netlify.app/">
