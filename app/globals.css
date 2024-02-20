@@ -43,4 +43,7 @@ html {
 
 }
 
+.poppins {
+  font-family: var(---font-poppins)
+}
 

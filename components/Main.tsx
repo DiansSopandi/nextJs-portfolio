@@ -1,11 +1,20 @@
 import React from "react";
+import { Poppins } from "next/font/google";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonDashFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500"],
+});
+
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center font-mono font-black">
+    <div
+      id="home"
+      className="w-full h-screen text-center font-mono font-black poppins"
+    >
       <div className="flex max-w-[1240px] w-full h-full mx-auto p-2  justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">

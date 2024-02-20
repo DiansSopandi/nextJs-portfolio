@@ -20,7 +20,7 @@ const SkillsItem = () => {
     <div className="grid md:grid-col-2 lg:grid-cols-4 gap-8">
       {skillsItem.map((item: Record<string, string>, ix: number) => (
         <div
-          className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
+          className="p-6 shadow-xl rounded-xl hover:scale-105 duration-500 transition-all ease-in delay-100"
           key={ix}
         >
           <div className="grid grid-cols-2 gap-4 justify-center items-center">

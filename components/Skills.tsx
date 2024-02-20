@@ -4,7 +4,10 @@ import SkillsItem from "./SkillsItem";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2 font-mono font-black">
+    <div
+      id="skills"
+      className="w-full lg:h-screen p-2 font-mono font-black poppins"
+    >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-base tracking-widest uppercase text-[#5651e5]">
           Skills

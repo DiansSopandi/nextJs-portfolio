@@ -112,7 +112,7 @@ const Navbar = () => {
                   alt=""
                   width="90"
                   height="35"
-                  className="my-1 rounded-full shadow-lg scale-75 hover:scale-100"
+                  className="my-1 rounded-full shadow-lg scale-75 hover:scale-100 border-solid border-orange-400 border-2   transition-all duration-1000 ease-in delay-100"
                   onClick={() => handleClickNav()}
                 />
               </Link>
