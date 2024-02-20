@@ -5,9 +5,9 @@ import { RiRadioButtonFill } from "react-icons/ri";
 
 const property = () => {
   return (
-    <div className="pt-8 overflow-hidden font-mono font-bold">
-      <div className=" w-full h-[30vh] lg:h-[30vh] lg:hidden md:block sm:block relative  mt-16">
-        <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[30vh] bg-black/80 z-10">
+    <div className="pt-8 overflow-hidden  font-black poppins">
+      <div className=" w-full h-[30vh] lg:h-[30vh] lg:hidden md:block sm:block relative  mt-16 ">
+        <div className="justify-items-center absolute top-0  w-full h-[30vh] lg:h-[30vh] bg-black/80 z-10  border border-solid border-orange-400">
           <Image
             className="absolute z-1"
             layout="fill"
@@ -24,7 +24,7 @@ const property = () => {
 
       <div className="flex w-full h-full pt-20">
         <div className=" w-1/2 h-[60vh] lg:h-[70vh] hidden lg:block md:hidden sm:hidden relative px-8">
-          <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 rounded-xl border-solid border-orange-400 border">
+          <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 rounded-md border-solid border-orange-400 border">
             <Image
               className="absolute z-1 rounded-xl"
               layout="fill"
@@ -58,7 +58,7 @@ const property = () => {
               </Link>
             </button>
           </div>
-          <div className="w-full col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-2">
+          <div className="w-full col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-md p-2 border border-orange-500 border-solid">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-2 md:grid-cols-1 text-base">
