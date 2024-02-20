@@ -4,13 +4,13 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full lg:h-screen font-mono font-black">
+    <div id="projects" className="w-full font-mono font-black md:my-40 sm:my-0">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-base tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
         <h2 className="text-sm py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-col-2 gap-8 grid-cols-2">
+        <div className="grid  gap-8 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 ">
           <div className="flex items-center justify-center relative h-auto max-w-xl shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
             <Image
               className="w-full rounded-xl group-hover:opacity-10"
@@ -32,6 +32,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+
           <div className="flex items-center justify-center relative h-auto max-w-xl shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
             <Image
               className="w-full rounded-xl group-hover:opacity-10"

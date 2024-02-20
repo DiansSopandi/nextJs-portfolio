@@ -14,8 +14,6 @@ const property = () => {
             objectFit="cover"
             src="/assets/projects/weather.png"
             alt="/"
-            // width="200"
-            // height="100"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%]">
             <h2 className="py-2 text-lg text-white z-10">Weather Forecast</h2>
@@ -25,8 +23,8 @@ const property = () => {
       </div>
 
       <div className="flex w-full h-full pt-20">
-        <div className=" w-full h-[60vh] lg:h-[60vh] hidden lg:block md:hidden sm:hidden relative px-8">
-          <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[30vh] bg-black/80 z-10 rounded-xl ">
+        <div className=" w-1/2 h-[60vh] lg:h-[70vh] hidden lg:block md:hidden sm:hidden relative px-8">
+          <div className=" justify-items-center absolute top-0  w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 rounded-xl border-solid border-orange-400 border">
             <Image
               className="absolute z-1 rounded-xl"
               layout="fill"
@@ -36,7 +34,7 @@ const property = () => {
             />
             <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%]">
               <h2 className="p-2 text-lg text-white z-10">Weather Forecast</h2>
-              <h3 className="text-base text-white p-2">Javascript / ReactJs</h3>
+              <h3 className="text-base text-white p-2">Javascript - ReactJs</h3>
             </div>
           </div>
         </div>

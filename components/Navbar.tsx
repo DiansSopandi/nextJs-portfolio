@@ -51,29 +51,35 @@ const Navbar = () => {
             alt=""
             width="80"
             height="25"
-            className="my-1 rounded-full shadow-lg scale-75 hover:scale-100"
+            className="my-1 rounded-full shadow-lg scale-75 border-solid border-orange-400 border-2 hover:scale-100  transition-all duration-1000 ease-in delay-100"
           />
         </Link>
-        <div className="text-base font-bold ">
+        <div className="text-base font-bold  ">
           <ul className="hidden  md:flex md:text-sm">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className=" ml-10 text-sm uppercase hover:border-b border-orange-500 border-solid">
+                Home
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b  border-orange-500 border-solid">
                 Projects
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b  border-orange-500 border-solid">
+                Skills
+              </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b  border-orange-500 border-solid">
                 Contact
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b  border-orange-500 border-solid">
+                About
+              </li>
             </Link>
           </ul>
           <div
@@ -129,7 +135,7 @@ const Navbar = () => {
               className="uppercase  md:flex"
             >
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-sm ">
                   Home
                 </li>
               </Link>

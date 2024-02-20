@@ -8,7 +8,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen font-mono font-black">
+    <div id="contact" className="w-full font-mono font-black  md:my-40 sm:my-0">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-base uppercase tracking-widest text-[#5651e5]">
           Contact
@@ -19,7 +19,8 @@ const Contact = () => {
             <div className="lg:p-4 h-full">
               <div>
                 <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
+                  className="rounded-xl scale-95 hover:scale-100 ease-in duration-1000 delay-100 border-solid border-orange-400 border-2"
+                  // className="my-1 rounded-full shadow-lg scale-75  hover:scale-100  transition-all duration-1000 ease-in delay-100"
                   src="/assets/contact.jpg"
                   alt="/"
                   width="600"
@@ -41,12 +42,24 @@ const Contact = () => {
               <div className="py-8">
                 <p className="text-base">Connect with me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
-                    <FaLinkedin />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
-                    <FaGithub />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/dians-sopandi-44b785219/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+                      <FaLinkedin />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/DiansSopandi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+                      <FaGithub />
+                    </div>
+                  </a>
                   <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
                     <AiOutlineMail />
                   </div>
@@ -61,12 +74,13 @@ const Contact = () => {
             <div className="py-4">
               <form action="">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col px-4">
+                  <div className="flex flex-col px-4 ">
                     <label className="text-base  font-bold py-2 px-4">
                       Name
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 border-gray-300"
+                      // className="rounded-xl scale-95 hover:scale-100 ease-in duration-1000 delay-100 "
                       type="text"
                     />
                   </div>
