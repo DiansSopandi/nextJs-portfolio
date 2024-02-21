@@ -12,12 +12,16 @@ const property = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src="/assets/projects/image-admin-dashboard-ls.png"
+            src="/assets/projects/certification_ls.png"
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%]">
-            <h2 className="py-2 text-lg text-white z-10">Admin Dashboard</h2>
-            <h3 className=" text-base text-white p-2">Vanilla Javascript</h3>
+            <h2 className="py-2 text-lg text-white z-10">
+              Personal Biodata Certification
+            </h2>
+            <h3 className=" text-base text-white p-2">
+              NextJs - Nestjs Javascript Framework, mongodb - elastic search
+            </h3>
           </div>
         </div>
       </div>
@@ -29,12 +33,16 @@ const property = () => {
               className="absolute z-1 rounded-xl"
               layout="fill"
               objectFit="cover"
-              src="/assets/projects/image-admin-dashboard-ls.png"
+              src="/assets/projects/certification_ls.png"
               alt="/"
             />
-            <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h2 className="p-2 text-lg text-white z-10">Admin Dashboard</h2>
-              <h3 className="text-base text-white p-2">Vanilla Javascript</h3>
+            <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] ">
+              <h2 className="p-2 text-lg text-black z-10">
+                {/* Personal Biodata Certification */}
+              </h2>
+              <h3 className="text-base text-black p-2 ">
+                {/* NextJs - Nestjs Javascript Framework, mongodb - elastic search */}
+              </h3>
             </div>
           </div>
         </div>
@@ -44,22 +52,20 @@ const property = () => {
             <p className="text-base font-bold">Project</p>
             <h3>Overview</h3>
             <p className="p-2">
-              This admin dashboard app built on HTML CSS and vanilla javascript
-              technologies.
+              this app built on javascript technologies, use several framework.
+              nextJs nestJs frontend backend javascript framework and mongodb
+              elastic search databases.
             </p>
             <button className="px-8 py-2 mt-4 mr-8">
-              <Link
-                href="https://admin-dashboard-vanilla-js.netlify.app/"
-                target="_blank"
-              >
+              <Link href="https://staging.knowme.link/" target="_blank">
                 <p>Demo</p>
               </Link>
             </button>
-            <button className="px-8 py-2 mt-4 mr-8">
+            {/* <button className="px-8 py-2 mt-4 mr-8">
               <Link href="https://github.com/DiansSopandi/admin-dashboard-js">
                 <p>Code</p>
               </Link>
-            </button>
+            </button> */}
           </div>
           <div className="w-full col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-md p-2 border border-orange-500 border-solid">
             <div className="p-2">
@@ -73,6 +79,21 @@ const property = () => {
                 </p>
                 <p className="flex py-2 text-gray-600 items-center">
                   <RiRadioButtonFill className="pr-1" /> Javascript
+                </p>
+                <p className="flex py-2 text-gray-600 items-center">
+                  <RiRadioButtonFill className="pr-1" /> NextJs
+                </p>
+                <p className="flex py-2 text-gray-600 items-center">
+                  <RiRadioButtonFill className="pr-1" /> Nestjs
+                </p>
+                <p className="flex py-2 text-gray-600 items-center">
+                  <RiRadioButtonFill className="pr-1" /> Elastic search
+                </p>
+                <p className="flex py-2 text-gray-600 items-center">
+                  <RiRadioButtonFill className="pr-1" /> Mongodb
+                </p>
+                <p className="flex py-2 text-gray-600 items-center">
+                  <RiRadioButtonFill className="pr-1" /> RabbitMQ
                 </p>
               </div>
             </div>

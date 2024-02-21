@@ -39,7 +39,7 @@ const property = () => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] mx-auto px-12 grid md:grid-cols-5 gap-1 pt-2">
+        <div className="max-w-[1240px] mx-auto px-12 grid md:grid-cols-5 gap-1 pt-2 ">
           <div className="col-span-4">
             <p className="text-base font-bold">Project</p>
             <h3>Overview</h3>
@@ -48,10 +48,15 @@ const property = () => {
               the React framework and some JavaScript libraries, fetch data from
               weather openAPI, use simple CSS stylesheet and HTML.<br></br> The
               way this application works is simple, just enter a certain city or
-              place where the weather forecast will be known.
+              place where the weather forecast will be known. once you connect
+              to the app and try to access without internet connection, its
+              progressif web app already.
             </p>
             <button className="px-8 py-2 mt-4 mr-8">
-              <Link href="https://weather-progressif-web-app.netlify.app/">
+              <Link
+                href="https://weather-progressif-web-app.netlify.app/"
+                target="_blank"
+              >
                 <p>Demo</p>
               </Link>
             </button>
