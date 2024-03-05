@@ -58,7 +58,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* <div className="flex items-center justify-center relative h-auto max-w-xl shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
+          <div className="flex items-center justify-center relative h-auto max-w-xl shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
             <Image
               className="w-full rounded-xl group-hover:opacity-10"
               src="/assets/projects/certification_ls.png"
@@ -80,7 +80,7 @@ const Projects = () => {
                 </p>
               </Link>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
