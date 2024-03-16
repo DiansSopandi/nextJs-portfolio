@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonDashFill } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
@@ -63,12 +63,21 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+                  {/* <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
                     <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+                  </div> */}
+                  {/* <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
                     <BsFillPersonDashFill />
-                  </div>
+                  </div> */}
+                  <a
+                    href="https://wa.me/send?phone=628179183759"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+                      <FaWhatsapp />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
