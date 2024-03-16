@@ -50,7 +50,8 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://wa.me/send?phone=628179183759"
+              // href="https://wa.me/send?phone=628179183759"
+              href="https://wa.me/628179183759"
               target="_blank"
               rel="noopener noreferrer"
             >
