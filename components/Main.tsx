@@ -18,15 +18,17 @@ const Main = () => {
       <div className="flex max-w-[1240px] w-full h-full mx-auto p-2  justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            let&apos;s build web and mobile app together
+            let&apos;s build web app together
+            {/* let&apos;s build web and mobile app together */}
           </p>
           <h2 className="py-4 text-gray-700">
             <span className="text-[#5651e5]"> Guardians asguard</span>
           </h2>
           <h3 className="py-0 text-gray-700">FullStack Web App Developer</h3>
           <p className="py-0 text-gray-600 max-w-[70%] mx-auto">
-            Specializing in building web and mobile app with Javascript
-            Technologies
+            Specializing in building web app with Javascript Technologies
+            {/* Specializing in building web and mobile app with Javascript
+            Technologies */}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
             <a

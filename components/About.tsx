@@ -14,8 +14,11 @@ const About = () => {
         <div className="text-gray-600 col-span-2 text-justify">
           <p>
             Todays i&apos;m spending a lot of times and focusing on web
+            development with using Javascript technologies for website
+            applications. <br></br>
+            {/* Todays i&apos;m spending a lot of times and focusing on web
             development with using Javascript technologies both for website or
-            mobile applications. <br></br>
+            mobile applications. <br></br> */}
             <br></br>I have got already experiences with several technologies
             later for desktop or web development, such as delphi or php for
             several years. <br></br>

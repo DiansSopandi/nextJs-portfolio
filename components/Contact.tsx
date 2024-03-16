@@ -73,7 +73,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+
+          {/* <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="py-4">
               <form action="">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -130,7 +131,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
