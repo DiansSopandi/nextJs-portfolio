@@ -2,7 +2,7 @@ import React from "react";
 import { Poppins } from "next/font/google";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonDashFill } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -49,12 +49,21 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+            <a
+              href="https://wa.me/send?phone=628179183759"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+                <FaWhatsapp />
+              </div>
+            </a>
+            {/* <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
               <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
+            </div> */}
+            {/* <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 duration-500">
               <BsFillPersonDashFill />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
