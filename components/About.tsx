@@ -11,7 +11,7 @@ const About = () => {
         <p className="text-base tracking-widest uppercase text-[#5651e5]">
           About
         </p>
-        <div className="text-gray-600 col-span-2 text-justify">
+        <div className="text-gray-600 col-span-2 text-justify font-montserrat">
           <p>
             {/* Todays i&apos;m spending a lot of times and focusing on web
             development with using Javascript technologies for website

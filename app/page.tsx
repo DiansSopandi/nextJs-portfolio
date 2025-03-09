@@ -1,4 +1,4 @@
-import { Poppins } from "next/font/google";
+import { Poppins, Montserrat } from "next/font/google";
 import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
 import About from "@/components/About";
@@ -11,9 +11,14 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500"],
 });
 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
 export default function Home() {
   return (
-    <div className={poppins.className}>
+    <div className={montserrat.className}>
       <Navbar />
       <Main />
       <About />
