@@ -13,18 +13,30 @@ const About = () => {
         </p>
         <div className="text-gray-600 col-span-2 text-justify">
           <p>
-            Todays i&apos;m spending a lot of times and focusing on web
+            {/* Todays i&apos;m spending a lot of times and focusing on web
             development with using Javascript technologies for website
-            applications. <br></br>
+            applications.  */}
+            Today, I am dedicating a significant amount of time to web
+            development, focusing on JavaScript technologies for building modern
+            web applications.
+            <br></br>
             {/* Todays i&apos;m spending a lot of times and focusing on web
             development with using Javascript technologies both for website or
             mobile applications. <br></br> */}
-            <br></br>I have got already experiences with several technologies
+            <br></br>
+            {/* I have got already experiences with several technologies
             later for desktop or web development, such as delphi or php for
-            several years. <br></br>
-            <br></br>Also, i have got already experiences with several databases
+            several years.  */}
+            I have extensive experience in desktop and web development, having
+            worked with technologies like Delphi and PHP for several years.
+            <br></br>
+            <br></br>
+            Additionally, I have hands-on experience with various database
+            management systems, including relational databases such as MySQL and
+            non-relational (NoSQL) databases like MongoDB.
+            {/* Also, i have got already experiences with several databases
             relational database management system such as mysql and non
-            relational database also well known as noSQL such as mongodb
+            relational database also well known as noSQL such as mongodb */}
           </p>
         </div>
         <div className="text-gray-600 col-span-1">
