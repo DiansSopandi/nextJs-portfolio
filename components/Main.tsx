@@ -24,9 +24,12 @@ const Main = () => {
           <h2 className="py-4 text-gray-700">
             <span className="text-[#5651e5]"> Guardians asguard</span>
           </h2>
-          <h3 className="py-0 text-gray-700">FullStack Web App Developer</h3>
+          <h3 className="py-0 text-gray-700">Full-Stack Web Developer</h3>
           <p className="py-0 text-gray-600 max-w-[70%] mx-auto">
-            Specializing in building web app with Javascript Technologies
+            Experienced in designing and building dynamic, high-performance web
+            applications with JavaScript technologies, ensuring efficiency,
+            scalability, and seamless user experiences.
+            {/* Specializing in building web app with Javascript Technologies */}
             {/* Specializing in building web and mobile app with Javascript
             Technologies */}
           </p>
